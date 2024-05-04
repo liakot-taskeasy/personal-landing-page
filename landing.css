@@ -1,0 +1,71 @@
+#first{
+  margin: auto;
+  height: 100px;
+  width: 1000px;
+  border: 3px solid red;
+  border-radius: 40px;
+  padding: 15px;
+  background-color: yellowgreen;
+  background-image: url(/Assets/images/img6.png);
+  background-position: center;
+}
+h1{
+  padding: 0px;
+  margin: 0px;
+  color: blueviolet;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: 50px;
+}
+.element1,
+.element2 {
+  text-wrap: wrap;
+  float: left;
+  width: 48%;
+  background-image: linear-gradient(red, yellow, rgb(43, 226, 89));
+  margin: 10px;
+  border-radius: 50%;
+}
+.ball{
+  size: 100px 100px;
+  border-radius: 50%;
+  background-color: brown;
+}
+.circle{
+  height: 100px;
+  width: 100px;
+  border: 3px solid red;
+  border-radius: 50%;
+  display: inline-block;
+  margin: auto;
+}
+p.dotted {
+  border-style: dotted;
+  border-width: 5px;
+  border-color: saddlebrown;
+}
+p.dashed {border-style: dashed;}
+p.solid {
+  border-style: solid;
+  border-style: solid;
+  border-width: 5px;
+  border-color: darkgoldenrod;
+}
+p.double {
+  border-style: double;
+  border-style: solid;
+  border-width: 5px;
+  background-color: goldenrod;
+}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+.wrap1,
+.wrap2 {
+  white-space: nowrap;
+  text-wrap: wrap;
+}
