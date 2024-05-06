@@ -69,3 +69,12 @@ p.mix {border-style: dotted dashed solid double;}
   white-space: nowrap;
   text-wrap: wrap;
 }
+
+/* div {
+  position: absolute;
+  bottom: 80px;
+  left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+} */
