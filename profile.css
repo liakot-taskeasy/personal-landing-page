@@ -1,0 +1,81 @@
+body {
+	background-color: #d6d6d6;
+}
+
+.profile {
+	border-radius: 30px;
+	background-color: white;
+	width: 440px;
+	height: 485px;
+	margin: auto;
+	margin-top: 90px;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 20px;
+}
+.profile-image {
+	height: 125px;
+	width: 125px;
+	border-radius: 50%;
+	background-color: #ecf7ff;
+	margin: 20px auto 0px auto;
+	overflow: hidden;
+}
+.pro-img {
+	height: 100px;
+	margin: auto;
+	/* border-radius: 50%; */
+	padding: 25px;
+}
+.pro {
+	height: 25px;
+	width: 90px;
+	margin: 20px auto 0px auto;
+	text-align: center;
+	background-color: #ecf7ff;
+	border-radius: 5px;
+	padding-top: 5PX;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.name {
+	text-align: center;
+	margin-top: 18px;
+	font-size: larger;
+	font-weight: bold;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #22215f;
+}
+.designation{
+	text-align: center;
+}
+
+
+.message {
+	height: 70px;
+	width: 200px;
+	border: 3px solid #22215f;
+	color: #22215f;
+	border-radius: 18px;
+	font-size: large;
+	font-weight: bold;
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.connect {
+	height: 70px;
+	width: 200px;
+	border-radius: 18px;
+	color: white;
+	background-color: #22215f;
+	font-size: large;
+	font-weight: bold;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
