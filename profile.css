@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Overpass:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap");
+
 body {
 	background-color: #d6d6d6;
 }
@@ -8,14 +14,14 @@ body {
 	width: 440px;
 	height: 485px;
 	margin: auto;
-	margin-top: 90px;
+	margin-top: 95px;
 	position: relative;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 	padding: 20px;
 }
 .profile-image {
-	height: 125px;
-	width: 125px;
+	height: 120px;
+	width: 120px;
 	border-radius: 50%;
 	background-color: #ecf7ff;
 	margin: 20px auto 0px auto;
@@ -34,7 +40,7 @@ body {
 	text-align: center;
 	background-color: #ecf7ff;
 	border-radius: 5px;
-	padding-top: 5PX;
+	padding-top: 5px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 }
@@ -43,13 +49,36 @@ body {
 	margin-top: 18px;
 	font-size: larger;
 	font-weight: bold;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 	color: #22215f;
 }
-.designation{
+.designation {
 	text-align: center;
 }
 
+.description {
+	font-family: "Libre Baskerville", serif;
+	text-align: justify;
+	text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  justify-content: space-around;
+	padding: 10px;
+}
+
+.flex-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+	height: 30px;
+	width: 30px;
+}
 
 .message {
 	height: 70px;
@@ -62,8 +91,8 @@ body {
 	position: absolute;
 	bottom: 30px;
 	left: 30px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+	font-family: "Libre Baskerville", serif;
 }
 .connect {
 	height: 70px;
@@ -76,6 +105,6 @@ body {
 	position: absolute;
 	bottom: 30px;
 	right: 30px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+	font-family: "Libre Baskerville", serif;
 }
