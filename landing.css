@@ -1,7 +1,11 @@
+body{
+  background-color: #EFEAE2;
+}
+
 #first{
   margin: auto;
   height: 100px;
-  width: 1000px;
+  width: 600px;
   border: 3px solid red;
   border-radius: 40px;
   padding: 15px;
@@ -9,15 +13,24 @@
   background-image: url(/Assets/images/img6.png);
   background-position: center;
 }
-h1{
-  padding: 0px;
-  margin: 0px;
+.page-title{
+  padding: 10px;
+  margin: auto;
   color: blueviolet;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: italic;
   font-size: 50px;
+  text-align: center;
 }
-.element1,
+
+
+
+
+
+
+
+
+/* .element1,
 .element2 {
   text-wrap: wrap;
   float: left;
@@ -77,4 +90,4 @@ p.mix {border-style: dotted dashed solid double;}
   display: flex;
   align-items: center;
   gap: 10px;
-} */
+} */ */
