@@ -2,21 +2,21 @@
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #67dcee;
-	width: 740px;
-	height: 520px;
+	width: 700px;
+	height: 500px;
 	margin: auto;
 	margin-top: 65px;
-	padding: 40px 30px;
+	padding: 50px 50px;
 }
 
-.flex-container > div {
-	background-color: #f1f1f1;
+.cart {
+	background-color: #ffffff;
 	margin: auto;
 	padding: 20px;
 	font-size: 16px;
 	height: 160px;
 	width: 250px;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 body {
@@ -26,4 +26,19 @@ body {
 a {
 	text-decoration: none;
 	color: darksalmon;
+}
+
+h3 {
+	padding: 0px;
+	margin: 0px;
+}
+
+.image-set {
+	position: relative;
+}
+
+.image-set1 {
+	position: absolute;
+	height: 30px;
+	width: 40px;
 }

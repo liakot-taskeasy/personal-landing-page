@@ -1,21 +1,23 @@
-// document.addEventListener('DOMContentLoaded', function() {
-//   const btn1 = document.getElementById('bt1');
-// // console.log(btn1Value);
+document.addEventListener("DOMContentLoaded", function () {
 
-// function handleButtonClick(event) {
-//   // Get the value of the clicked button
-//   const buttonValue = event.target.value;
+	const buttons = document.querySelectorAll(".btn");
+	// console.log(btn1Value);
 
-//   // Display the button value in the input
-//   document.getElementById('display').value = buttonValue;
-// }
+  let clickedValues = "";
 
-// // Add event listeners to each button
-// btn1.addEventListener('click', handleButtonClick);
+	function handleButtonClick(event) {
+    // console.log(event.target.id);
+		// Get the value of the clicked button
+		const buttonValue = event.target.value;
+    // console.log(buttonValue);
 
-// });
+    clickedValues += buttonValue;
 
-console.log("a+b");
-var liakot_age = 31 ;
-console.log(liakot_age);
+		// Display the button value in the input
+		document.getElementById("display").value = clickedValues;
+	}
 
+  buttons.forEach(button => {
+  button.addEventListener("click", handleButtonClick);
+  }); 
+});
